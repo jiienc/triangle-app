@@ -1,0 +1,136 @@
+.login-child,
+.login-item {
+    position: absolute;
+    top: 0.94rem;
+    border-radius: var(--br-mini);
+    height: 62.13rem;
+}
+.login-child {
+    left: 0.94rem;
+    background: linear-gradient(
+            180deg,
+            #ff37ed,
+            rgba(131, 40, 123, 0.89) 55.73%,
+            #de15cc,
+            #c90db8
+    );
+    width: 26.53rem;
+}
+.login-item {
+    left: 28.34rem;
+    background-color: #3b3b3b;
+    width: 60.73rem;
+}
+.sort-down-parent {
+    position: absolute;
+    top: 5.94rem;
+    left: 50.88rem;
+    width: 15.69rem;
+    height: 3.96rem;
+}
+.login1 {
+    position: absolute;
+    top: 12.5rem;
+    left: 50.38rem;
+    font-size: var(--font-size-14xl);
+    text-align: center;
+    display: inline-block;
+    width: 16.58rem;
+    height: 3.58rem;
+}
+.triangle-lets-you {
+    margin: 0;
+}
+.triangle-lets-you-container {
+    position: absolute;
+    top: 12.09rem;
+    left: 1.29rem;
+    font-size: var(--font-size-14xl);
+    text-align: center;
+    display: inline-block;
+    width: 25.83rem;
+    height: 7.17rem;
+}
+.login-inner {
+    position: absolute;
+    top: 32rem;
+    left: 0.94rem;
+    border-radius: 0 0 var(--br-8xs) var(--br-8xs);
+    width: 26.53rem;
+    height: 31.06rem;
+    object-fit: cover;
+    mix-blend-mode: luminosity;
+}
+.rectangle-div {
+    top: 18rem;
+    background-color: var(--color-white);
+    border: 1px solid var(--color-mediumorchid);
+    box-sizing: border-box;
+}
+.login-child1,
+.login-child2,
+.rectangle-div {
+    position: absolute;
+    left: 45.38rem;
+    border-radius: var(--br-5xs);
+    width: 26.63rem;
+    height: 3.94rem;
+}
+.login-child1 {
+    top: 23.63rem;
+    background-color: var(--color-white);
+    border: 1px solid var(--color-mediumorchid);
+    box-sizing: border-box;
+}
+.login-child2 {
+    top: 31.94rem;
+    background-color: var(--color-mediumorchid);
+}
+.first-name {
+    top: 19.06rem;
+    left: 46.59rem;
+    color: var(--color-gray-100);
+    width: 9.07rem;
+}
+.create-account,
+.email,
+.first-name {
+    position: absolute;
+    font-family: var(--font-inter);
+    display: inline-block;
+    height: 2.39rem;
+}
+.create-account {
+    top: 32.69rem;
+    left: 52.13rem;
+    font-weight: 500;
+    width: 13.09rem;
+}
+.email {
+    top: 24.68rem;
+    left: 46.59rem;
+    color: var(--color-gray-100);
+    width: 4.54rem;
+}
+.dont-have-an-container,
+.forgot-password {
+    position: absolute;
+    top: 27.94rem;
+    left: 56.44rem;
+    color: var(--color-snow);
+}
+.dont-have-an-container {
+    top: 37.25rem;
+    left: 44.31rem;
+}
+.login {
+    position: relative;
+    background-color: #1f1f1f;
+    width: 100%;
+    height: 64rem;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-9xl);
+    color: var(--color-white);
+    font-family: var(--font-poppins);
+}

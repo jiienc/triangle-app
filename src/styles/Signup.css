@@ -1,0 +1,235 @@
+.sign-up-child,
+.sign-up-item {
+    position: absolute;
+    top: 0.94rem;
+    border-radius: var(--br-mini);
+    height: 62.13rem;
+}
+.sign-up-child {
+    left: 0.94rem;
+    background: linear-gradient(
+            180deg,
+            #ff37ed,
+            rgba(131, 40, 123, 0.89) 55.73%,
+            #de15cc,
+            #c90db8
+    );
+    width: 26.53rem;
+}
+.sign-up-item {
+    left: 28.34rem;
+    background-color: #3b3b3b;
+    width: 60.73rem;
+}
+.sort-down-parent {
+    position: absolute;
+    top: 5.94rem;
+    left: 50.88rem;
+    width: 15.69rem;
+    height: 3.96rem;
+}
+.create-account {
+    position: absolute;
+    top: 12.5rem;
+    left: 50.38rem;
+    font-size: var(--font-size-14xl);
+    font-family: var(--font-poppins);
+    display: inline-block;
+    width: 16.58rem;
+    height: 3.58rem;
+}
+.triangle-lets-you {
+    margin: 0;
+}
+.triangle-lets-you-container {
+    position: absolute;
+    top: 12.09rem;
+    left: 1.29rem;
+    font-size: var(--font-size-14xl);
+    font-family: var(--font-poppins);
+    text-align: center;
+    display: inline-block;
+    width: 25.83rem;
+    height: 7.17rem;
+}
+.sign-up-inner {
+    position: absolute;
+    top: 32rem;
+    left: 0.94rem;
+    border-radius: 0 0 var(--br-8xs) var(--br-8xs);
+    width: 26.53rem;
+    height: 31.06rem;
+    object-fit: cover;
+    mix-blend-mode: luminosity;
+}
+.rectangle-div {
+    top: 18rem;
+    left: 37.56rem;
+    background-color: var(--color-white);
+    border: 1px solid var(--color-mediumorchid);
+    box-sizing: border-box;
+}
+.rectangle-div,
+.sign-up-child1,
+.sign-up-child2,
+.sign-up-child3 {
+    position: absolute;
+    border-radius: var(--br-5xs);
+    width: 20.19rem;
+    height: 3.94rem;
+}
+.sign-up-child1 {
+    top: 50.94rem;
+    left: 37.56rem;
+    background-color: var(--color-white);
+}
+.sign-up-child2,
+.sign-up-child3 {
+    left: 59.81rem;
+}
+.sign-up-child2 {
+    top: 18rem;
+    background-color: var(--color-white);
+    border: 1px solid var(--color-mediumorchid);
+    box-sizing: border-box;
+}
+.sign-up-child3 {
+    top: 50.94rem;
+    background-color: #3b5998;
+}
+.rectangle-icon,
+.sign-up-child4,
+.sign-up-child5,
+.sign-up-child7 {
+    position: absolute;
+    border-radius: var(--br-5xs);
+    width: 42.19rem;
+    height: 3.94rem;
+}
+.sign-up-child4 {
+    top: 23.58rem;
+    left: 37.59rem;
+    background-color: var(--color-white);
+    border: 1px solid var(--color-mediumorchid);
+    box-sizing: border-box;
+}
+.sign-up-child7 {
+    top: 29.16rem;
+    left: 37.59rem;
+    background-color: var(--color-white);
+    border: 1px solid var(--color-mediumorchid);
+    box-sizing: border-box;
+}
+.rectangle-icon,
+.sign-up-child5 {
+    top: 29.15rem;
+    left: 37.5rem;
+}
+.sign-up-child5 {
+    top: 34.73rem;
+    left: 37.59rem;
+    background-color: var(--color-mediumorchid);
+}
+.first-name,
+.sign-up-with {
+    position: absolute;
+    display: inline-block;
+    height: 2.39rem;
+}
+.first-name {
+    top: 19.06rem;
+    left: 38.81rem;
+    color: var(--color-gray-100);
+    width: 9.07rem;
+}
+.sign-up-with {
+    top: 51.69rem;
+    left: 39.25rem;
+    font-size: var(--font-size-8xl);
+    font-weight: 600;
+    color: #000;
+    width: 16.93rem;
+}
+.create-account1 {
+    top: 35.78rem;
+    left: 54.34rem;
+    font-weight: 500;
+    width: 13.09rem;
+}
+.create-account1,
+.last-name,
+.sign-up-with1 {
+    position: absolute;
+    display: inline-block;
+    height: 2.39rem;
+}
+.last-name {
+    top: 19.06rem;
+    left: 61.14rem;
+    color: var(--color-gray-100);
+    width: 8.9rem;
+}
+.sign-up-with1 {
+    top: 51.69rem;
+    left: 60.13rem;
+    font-size: var(--font-size-8xl);
+    font-weight: 600;
+    width: 19.2rem;
+}
+.email {
+    top: 24.63rem;
+    left: 38.81rem;
+    color: var(--color-gray-100);
+    width: 4.54rem;
+}
+.already-have-an-container,
+.email,
+.password {
+    position: absolute;
+    display: inline-block;
+    height: 2.39rem;
+}
+.password {
+    top: 30.01rem;
+    left: 38.98rem;
+    color: var(--color-gray-100);
+    width: 8.2rem;
+}
+.already-have-an-container {
+    top: 40.56rem;
+    left: 37.76rem;
+    width: 26.53rem;
+}
+.line-div,
+.sign-up-child6 {
+    position: absolute;
+    top: 46.31rem;
+    left: 37.38rem;
+    border-top: 1px solid var(--color-white);
+    box-sizing: border-box;
+    width: 16.99rem;
+    height: 0.06rem;
+}
+.sign-up-child6 {
+    left: 62.51rem;
+    width: 17.51rem;
+}
+.or {
+    position: absolute;
+    top: 45.14rem;
+    left: 57.48rem;
+    display: inline-block;
+    width: 2.62rem;
+    height: 2.39rem;
+}
+.sign-up {
+    position: relative;
+    background-color: #1f1f1f;
+    width: 100%;
+    height: 64rem;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-9xl);
+    color: var(--color-white);
+    font-family: var(--font-inter);
+}
