@@ -1,4 +1,3 @@
-import React from "react";
 import artists from "../assets/artist.png"
 import albums from "../assets/album.png"
 import playlists from "../assets/playlist.png"

@@ -1,4 +1,3 @@
-import React from "react";
 import topalbum from "../assets/tophits.png"
 
 export default function Section2() {

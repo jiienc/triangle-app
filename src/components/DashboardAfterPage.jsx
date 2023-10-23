@@ -1,4 +1,3 @@
-import React from "react";
 import "../styles/DashboardAfter.css";
 import logo from "../assets/logo.png";
 import profile from "../assets/profile.png";
@@ -111,4 +110,4 @@ export default function DashboardAfterPage() {
             <img className="dashboard-after-login-child9" alt="" src={topalbum} />
         </div>
     );
-};
+}

@@ -1,4 +1,3 @@
-import React from "react";
 import "../styles/Profile.css";
 import profile from "../assets/profile.png"
 
@@ -40,4 +39,4 @@ export default function ProfilePage() {
             <div className="blackpink">BLACKPINK</div>
         </div>
     );
-};
+}

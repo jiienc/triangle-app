@@ -11,7 +11,6 @@ import facebook from "../assets/facebook.png"
 import twitter from "../assets/twitter.png"
 import youtube from "../assets/youtube.png"
 import email from "../assets/email.png"
-import React from "react";
 
 export default function SettingPage() {
     return (
@@ -80,4 +79,4 @@ export default function SettingPage() {
             <div className="logout">Logout</div>
         </div>
     );
-};
+}

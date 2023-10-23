@@ -1,4 +1,3 @@
-import React from 'react'
 import home from "../assets/home.png"
 import musiclibrary from "../assets/musiclibrary.png"
 

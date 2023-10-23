@@ -1,4 +1,3 @@
-import React from "react";
 import "../styles/Signup.css";
 import logo from "../assets/logo.png"
 import pict from "../assets/gramophone.png"
@@ -44,4 +43,4 @@ export default function SignupPage() {
             <div className="sign-up-with1">Sign up with Facebook</div>
         </div>
     );
-};
+}

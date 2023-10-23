@@ -1,4 +1,3 @@
-import React from "react";
 import "../styles/App.css";
 import Menu from "./Menu.jsx";
 import Browse from "./Browse.jsx";
@@ -20,10 +19,10 @@ export default function App() {
             <Menu />
             <Browse />
             <Playlist />
-            <Footer />
             <Section1 />
             <Section2 />
             <Section3 />
+            <Footer />
         </div>
     );
 }
