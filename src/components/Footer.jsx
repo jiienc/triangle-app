@@ -1,22 +1,27 @@
-import instagram from "../assets/instagram.png"
-import facebook from "../assets/facebook.png"
-import twitter from "../assets/twitter.png"
-import youtube from "../assets/youtube.png"
-import email from "../assets/email.png"
+import React from "react";
+import styled from "styled-components";
+import CurrentTrack from "./CurrentTrack";
 
+import PlayerControls from "./PlayerControls";
+import Volume from "./Volume";
 export default function Footer() {
-    return (
-        <div>
-            <div className="rectangle-div" />
-            <img className="instagram-icon" alt="" src={instagram} />
-            <img className="facebook-f-icon" alt="" src={facebook} />
-            <img className="twitter-icon" alt="" src={twitter} />
-            <img className="youtube-icon" alt="" src={youtube} />
-            <img className="gmail-logo-icon" alt="" src={email} />
-            <div className="terms-of-service">Terms of Service</div>
-            <div className="triangle-user-aggrement">Triangle User Aggrement</div>
-            <div className="privacy-policy">Privacy Policy</div>
-            <div className="triangle">&copy; 2023 Triangle</div>
-        </div>
-    );
+  return (
+    <Container>
+      <CurrentTrack />
+      <PlayerControls />
+      <Volume />
+    </Container>
+  );
 }
+
+const Container = styled.div`
+  height: 100%;
+  width: 100%;
+  background-color: #181818;
+  border-top: 1px solid #282828;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1rem;
+`;

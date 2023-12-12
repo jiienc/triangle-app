@@ -1,40 +1,13 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Notable:wght@400&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
 body {
-  margin: 0;
-  line-height: normal;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
-:root {
-  /* fonts */
-  --font-notable: Notable;
-  --font-poppins: Poppins;
-  --font-inter: Inter;
 
-  /* font sizes */
-  --font-size-19xl: 2.38rem;
-  --font-size-lgi: 1.19rem;
-  --font-size-base: 1rem;
-  --font-size-14xl: 2.06rem;
-  --font-size-11xl: 1.88rem;
-  --font-size-3xl: 1.38rem;
-  --font-size-9xl: 1.75rem;
-  --font-size-8xl: 1.69rem;
-  --font-size-26xl: 2.81rem;
-
-  /* Colors */
-  --color-gray-100: #888;
-  --color-mediumorchid: #f155e3;
-  --color-gainsboro: #d9d9d9;
-  --color-white: #fff;
-  --color-black: #000;
-  --color-snow: #fff9f9;
-  --color-darkslategray: #3b3b3b;
-  --color-dimgray: #4f4f4f;
-
-  /* Border radiuses */
-  --br-8xs: 5px;
-  --br-mini: 15px;
-  --br-14xl: 33px;
-  --br-5xs: 8px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
