@@ -14,7 +14,6 @@ export default function Login() {
       "user-read-currently-playing",
       "user-read-recently-played",
       "user-top-read",
-      "playlist-read-private",
     ];
     window.location.href = `${api_uri}?client_id=${client_id}&redirect_uri=${redirect_uri}&scope=${scope.join(
       " "
@@ -23,8 +22,8 @@ export default function Login() {
   return (
     <Container>
       <img
-        src="../logo.jpg"
-        alt="triangle"
+        src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYsfb-dFwYVNIrusoFJ0WNZoauiogC6hj8Cf-V2aCQuPLEAUxApka8rvfKyxqqd4_QiX5NRjm7KM9BrRS3w8ykanwoeQmCmVVnc35OGDLjPrW6cyryrNk1Xkeu9zyRts2Sz_EZk8Z9jYutN0YzRRmeZ5Ag0akoWYZAho8L7N6ovDAbleuTCmwAE5Z9rTqF/s320/logo.jpg"
+        alt="logo"
       />
       <button onClick={handleClick}>Connect by Spotify</button>
     </Container>
